@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MI PORTAFOLIO MTRA.</title>
+
+<style>
+	body{
+		margin:0 ;
+		font-family:'Segoe UI', sans-serif ;
+		display:flex;
+
+	}
+ nav {
+      width: 220px;
+      min-height: 100vh;
+      background: linear-gradient(to bottom, #DAF7A6, #0f6b3e);
+      color: white;
+      padding-top: 30px;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+nav ul li {
+      position: relative;
+    }
+     nav ul li a {
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+/* Submenú */
+    nav ul li ul {
+      display: none;
+      background-color: #174f36;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li a {
+      padding-left: 30px;
+      font-weight: normal;
+    }
+    /* CONTENIDO */
+    .contenido {
+      margin-left: 220px;
+      width: calc(100% - 220px);
+    }
+
+    header {
+      background: linear-gradient(to right, #6b0f1a, #0f6b3e);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+ header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+ header .titulo {
+      text-align: left;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+table{
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  border: 2px solid #000;
+}
+
+
+th,td{
+  border: 2px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+	
+		<nav>
+      <ul>
+			<li> <a href="index.html">Inicio</a></li>
+			<li> <a href="#">Sobre mí</a></li>
+			<li> <a href="#">Habilidades</a></li>
+
+			<li>
+				<a href="#">Proyectos</a>
+				<ul>
+					<li><a href="calificaciones.html">Calificaciones</a></li>
+					<li><a href="directorio.html">Directorio</a></li>
+					<li><a href="#">Reforestación</a></li>
+					<li><a href="#">Cuestionario</a></li>
+
+				</ul>
+
+			</li>
+			<li><a href="#">Contacto</a></li>
+
+		</nav>
+<div class="contenido">
+  <!-- HEADER CON IMAGEN-->
+  <header>
+    <img src="img/ana.jpg" alt="Foto de perfil">
+      <div class="titulo">
+        <h1>Mi Página Web Completa</h1>
+        <p>Con menú lateral y diseño profesional</p>
+      </div>
+
+
+  </header>
+   <!-- MAIN -->
+ 
+      <h1>Lista de calificaciones</h1>
+      <table>
+        <caption>GRUPO 603</caption>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Materia</th>
+            <th>Calificación</th>
+            <th>Observaciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Ana Idem Rodríguez</td>
+            <td>Fisica</td>
+            <td>6.0</td>
+            <td>No entendí la ley de la gravedad</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Ana Idem Rodriguez</td>
+            <td>Ciencias Sociales</td>
+            <td>9.0</td>
+            <td>Materia Interesante</td>
+          </tr>
+
+          <tr>
+            <td>3.</td>
+            <td>Ana Idem Rodriguez</td>
+            <td>Orientación</td>
+            <td>10.0</td>
+            <td>Excelente Materia</td>
+          </tr>
+
+          <tr>
+            <td>4.</td>
+            <td>Ana Idem Rodriguez</td>
+            <td>Historia Universal</td>
+            <td>8.5</td>
+            <td>Excente la materia</td>
+          </tr>
+
+          <tr>
+            <td>5.</td>
+            <td>Ana Idem Rodriguez</td>
+            <td>Cálculo Integral</td>
+            <td>7.0</td>
+            <td>Me fui a final</td>
+          </tr>
+
+
+          <tr>
+            <td>6.</td>
+            <td>Ana Idem Rodriguez</td>
+            <td>Filosofia</td>
+            <td>10</td>
+            <td>Excente la materia</td>
+          </tr>
+
+
+          <tr>
+            <td>7.</td>
+            <td>Ana Idem Rodriguez</td>
+            <td>Actividades Artistico Cultural</td>
+            <td>9.0</td>
+            <td>Excente la materia</td>
+          </tr>
+
+          <tr>
+            <td>8.</td>
+            <td>Ana Idem Rodriguez</td>
+            <td>Economía</td>
+            <td>6.0</td>
+            <td>No le entendí a la materia</td>
+          </tr>
+
+                    <tr>
+            <td>9.</td>
+            <td>Ana Idem Rodriguez</td>
+            <td>Submódulo 1. Páginas Web</td>
+            <td>5.0</td>
+            <td>Me fuí a extraordinario</td>
+          </tr>
+
+             <tr>
+            <td>10.</td>
+            <td>Ana Idem Rodriguez</td>
+            <td>Submódulo 2. Diseño Digital</td>
+            <td>5.0</td>
+            <td>Me fuí a extraordinario</td>
+          </tr>
+
+          
+
+
+        </tbody>
+        
+
+      </table>
+
+
+
+  
+    <!-- FOOTER -->
+    <footer>
+      <h3>Elaborado por: Tu Nombre Aquí</h3>
+      <p>&copy; 2025 Todos los derechos reservados.</p>
+    </footer>
+
+</div>
+
+
+
+</body>
+</html>
